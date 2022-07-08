@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotMatrixClock.Android", "DotMatrixClock\DotMatrixClock.Android\DotMatrixClock.Android.csproj", "{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotMatrixClock", "DotMatrixClock\DotMatrixClock\DotMatrixClock.csproj", "{50F520F7-8C9A-4790-B108-1C073040DD89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4F9A2A-0808-4B1F-A7FD-A4F7B25FC951}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F520F7-8C9A-4790-B108-1C073040DD89}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F5EED5E-05DB-4DEB-907C-EC81AB7586AC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextDecoration.Android", "TextDecoration\TextDecoration.Android\TextDecoration.Android.csproj", "{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextDecoration", "TextDecoration\TextDecoration\TextDecoration.csproj", "{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB25E9F-4923-4B91-8EDD-BA0C5F314795}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1B3041-A35C-4E55-B0C6-D3CDD0612B55}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1191FA9D-67AC-4539-8F2C-98D1A0A96707}
+	EndGlobalSection
+EndGlobal
