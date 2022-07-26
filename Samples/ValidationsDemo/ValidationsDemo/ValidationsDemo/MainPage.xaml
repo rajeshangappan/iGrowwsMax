@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ValidationsDemo"
+             x:Class="ValidationsDemo.MainPage">
+    <StackLayout Padding="20">
+        <Label Text="LOGIN"  FontFamily="Calibri" TextColor="DarkSlateBlue" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40"/>
+        <Label Text="{Binding Message}" 
+        IsVisible="False" TextColor="Black"/>
+        <Label Text="Username"/>
+        <Entry Text="{Binding LoginModel.Username}" BackgroundColor="Transparent" TextColor="Black"/>
+        <Label x:Name="LoginModel_UsernameError" 
+        IsVisible="False"  TextColor="Red" />
+        <Label Text="Password" />
+        <Entry IsPassword="true" BackgroundColor="Transparent" Text="{Binding LoginModel.Password}" TextColor="black"/>
+        <Label x:Name="LoginModel_PasswordError" 
+        IsVisible="False" TextColor="Red" />
+        <StackLayout Orientation="Horizontal">
+            <CheckBox  x:Name ="Remember me" Color="SlateBlue" HorizontalOptions="Start"/>
+
+            <Label Text="Remember me"   HorizontalOptions="FillAndExpand" VerticalTextAlignment="Start"/>
+            <Label Text="Forgot?" TextColor="SlateBlue" HorizontalOptions="FillAndExpand" VerticalTextAlignment="End"/>
+        </StackLayout>
+        <Button Text="LOGIN" 
+        Command="{Binding LoginInCommand}" TextColor="White" BackgroundColor="SlateBlue"/>
+    </StackLayout>
+</ContentPage>
