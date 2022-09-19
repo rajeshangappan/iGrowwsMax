@@ -1,0 +1,15 @@
+C:\source\iGrowwsMax\App8\App8\App8\bin\Debug\netstandard2.0\App8.deps.json
+C:\source\iGrowwsMax\App8\App8\App8\bin\Debug\netstandard2.0\App8.dll
+C:\source\iGrowwsMax\App8\App8\App8\bin\Debug\netstandard2.0\App8.pdb
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.csproj.AssemblyReference.cache
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfoInputs.cache
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfo.cs
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.csproj.CoreCompileInputs.cache
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\XamlC.stamp
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.dll
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\refint\App8.dll
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\App8.pdb
+C:\source\iGrowwsMax\App8\App8\App8\obj\Debug\netstandard2.0\ref\App8.dll

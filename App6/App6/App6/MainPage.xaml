@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.MainPage">
+    <ScrollView>
+        <StackLayout Margin=" 30,20" Spacing="30" Orientation="Vertical">
+            <Button BackgroundColor="Black" CornerRadius="20" TextColor="White" Clicked="NewEventHandler" Text="MakePayment" VerticalOptions="CenterAndExpand"/>
+            <Button BackgroundColor="Black" CornerRadius="20" TextColor="White" Clicked="GetCustomerInformationID" Text="GetCustomerbyID" VerticalOptions="CenterAndExpand"/>
+            <Button BackgroundColor="Black" CornerRadius="20" TextColor="White" Clicked="GetAllCustomerInformation" Text="GetAllCustomer" VerticalOptions="CenterAndExpand"/>
+            <Button BackgroundColor="Black" CornerRadius="20" TextColor="White" Clicked="GetRefundForSpecificTranscation" Text="Cancell Transaction" VerticalOptions="CenterAndExpand"/>
+            <Button BackgroundColor="Black" CornerRadius="20" TextColor="White" Clicked="GetRefundInformation" Text="Get Refund Information" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

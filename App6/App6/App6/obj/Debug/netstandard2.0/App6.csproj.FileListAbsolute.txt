@@ -1,0 +1,10 @@
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.csproj.AssemblyReference.cache
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.AssemblyInfoInputs.cache
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.AssemblyInfo.cs
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.csproj.CoreCompileInputs.cache
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.dll
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\refint\App6.dll
+C:\source\iGrowwsMax\App6\App6\App6\obj\Debug\netstandard2.0\App6.pdb
