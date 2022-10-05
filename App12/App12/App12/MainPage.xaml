@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App12.MainPage">
+    <StackLayout BackgroundColor="Lavender">
+        <Frame BackgroundColor="Purple" Padding="30" CornerRadius="40">
+            <Label Text="Stripe PaymentGatway" FontAttributes="Italic" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Shop your choice" TextColor="MediumPurple" FontAttributes="Bold" FontSize="Title" Padding="30,10,30,10"/>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center" Margin="12" Padding="24" Spacing="24" BackgroundColor="white">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="CreditCard.png" />
+                <Entry x:Name="CreditCard" Placeholder="Enter Card Number" WidthRequest="250" HeightRequest="50" MaxLength="16" Keyboard="Numeric" />
+            </StackLayout>
+            <Label x:Name="CardError" TextColor="Red" FontSize="12" FontFamily="Sans-Serif"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="MonthDate.png" />
+                    <Entry x:Name="monthyear" Placeholder="MM/YY" Text="{Binding Date, StringFormat=MM-yy}" MaxLength="4"   WidthRequest="250" HeightRequest="50" />
+                </StackLayout>
+                <Label x:Name="DateError" TextColor="Red" FontSize="12" FontFamily="Sans-Serif"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="cvc.png" />
+                    <Entry x:Name="cvc" Placeholder="CVC" WidthRequest="250" HeightRequest="50" Keyboard="Numeric" MaxLength="4"/>
+                </StackLayout>
+                <Label x:Name="CVVError" TextColor="Red" FontSize="12" FontFamily="Sans-Serif"/>
+            </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Entry x:Name="NameonCard" Placeholder="Name on Card" WidthRequest="250" HeightRequest="50"  Keyboard="Default" />
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry x:Name="NickName" Placeholder="Card Nickname(for easy identification)" WidthRequest="550" HeightRequest="50" MaxLength="20" Keyboard="Default" />
+                    </StackLayout>
+                    <Button HorizontalOptions="Center" Text="Stripe Pay" VerticalOptions="Center" TextColor="Black" BackgroundColor="LightPink" WidthRequest="350" FontSize="30" FontAttributes="Italic" FontFamily="Sans-Serif"/>
+            <Label x:Name="ErrorText" TextColor="Red" BackgroundColor="Transparent" WidthRequest="250" XAlign="Center" YAlign="Start" VerticalOptions="StartAndExpand" FontSize="8"/>
+                </StackLayout>
+            </StackLayout>
+</ContentPage>
+ 
+
